@@ -32,7 +32,7 @@ Contributions are what make the open source community such an amazing place to b
 
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/gautham2k3/Custom-Password-Generator/main/LICENSE.md) for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/gautham2k3/Custom-Password-Generator/blob/main/LICENSE.md) for more information.
 
 ## Authors
 
