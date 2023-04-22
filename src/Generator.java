@@ -9,9 +9,9 @@ public class Generator
     {
         sc=scanner;
     }
-    public Generator(String x,String y,boolean z)
+    public Generator(String x,String y,boolean z,boolean a)
     {
-        b=new Custom(x,y,z);
+        b=new Custom(x,y,z,a);
     }
     public Generator(boolean UC,boolean LC,boolean Num,boolean Symb)
     {
@@ -155,13 +155,25 @@ public class Generator
     public void printCM()
     {
         String x,y,z;
+        String p=" ",q=" ",s;
         boolean a = false;
+        boolean aa = false;
         System.out.println("Enter First Name");
         x=sc.next();
         System.out.println("Enter last Name");
         y=sc.next();
+        System.out.println("Do you want to include DOB");
+        s=sc.next();
+        if(isInclude(s))
+        {
+            aa=true;
+            System.out.println("Enter your Date Of Birth");
+            p=sc.next();
+            System.out.println("Enter your Year of Birth");
+            q=sc.next();
+        }
         do {
-            System.out.println("Do you need Numbers");
+            System.out.println("Do you need Symbols");
             z = sc.next();
         }
         while(!z.equalsIgnoreCase("yes")&&!z.equalsIgnoreCase("no"));
@@ -169,8 +181,23 @@ public class Generator
             a = true;
         }
         int l=8;
-        final Generator G=new Generator(x,y,a);
+        final Generator G=new Generator(x,y,a,aa);
         final Password Pass=G.GenerateCP(l);
-        System.out.println("Your Generated Password is "+Pass);
+        String ax=Pass.toString();
+        if(isInclude(s)) {
+            System.out.print("Your Generated Password is : ");
+            for (int i = 0; i < ax.length(); i++) {
+                if (ax.charAt(i) == '&')
+                    System.out.print(p);
+                else if (ax.charAt(i) == '^')
+                    System.out.print(q);
+                else
+                    System.out.print(ax.charAt(i));
+            }
+            System.out.println();
+        }
+        else {
+            System.out.println("Your Generated Password is " + ax);
+        }
     }
 }
