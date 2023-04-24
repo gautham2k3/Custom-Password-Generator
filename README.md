@@ -8,12 +8,8 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81q-wzh1u7lqKHosy8x6H_6-784MI_g8aEzxEkPXAx2zlMRYLtrY7f-ipghj75hcEgmSSxTyNlLxKCJOYIQfUmvUfVRwXw=w1920-h1080" alt="project-screenshot" width="500" height="500/">
+<img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81q-wzh1u7lqKHosy8x6H_6-784MI_g8aEzxEkPXAx2zlMRYLtrY7f-ipghj75hcEgmSSxTyNlLxKCJOYIQfUmvUfVRwXw=w1920-h1080" width="500"/> <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81rG5bXC-mQdtGm1NCsryIKlu25mj_jc4wRjhx5yldXKMgkw1sc0bmHOEUls-D0KBy-4C1O-I9kYB8njxkWP2OnOrAEz=w1920-h1080" width="500"/>
 
-<img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81rG5bXC-mQdtGm1NCsryIKlu25mj_jc4wRjhx5yldXKMgkw1sc0bmHOEUls-D0KBy-4C1O-I9kYB8njxkWP2OnOrAEz=w1920-h1080" alt="project-screenshot" width="500" height="500/">
-
-  
-  
 <h2>🧐 Features</h2>
 
 Here're some of the project's best features:
