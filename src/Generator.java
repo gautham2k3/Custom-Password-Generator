@@ -64,7 +64,7 @@ public class Generator
     public Password GenerateCP(int length)
     {
         final StringBuilder B=new StringBuilder("");
-        int range=b.getCData().length()-1;
+        int range=b.getCData().length();
         for(int i=0;i<length;i++)
         {
             int j=(int)(Math.random()*range);
