@@ -1,6 +1,6 @@
 <h1 align="center" id="title">Custom Password Generator</h1>
 
-<p align="center"><img src="https://socialify.git.ci/gautham2k3/Custom-Password-Generator/image?font=Source%20Code%20Pro&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Circuit%20Board&amp;stargazers=1&amp;theme=Auto" alt="project-image"></p>
+<p align="center"><img src="https://socialify.git.ci/gautham2k3/Custom-Password-Generator/image?forks=1&amp;issues=1&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Circuit%20Board&amp;stargazers=1&amp;theme=Auto" alt="project-image"></p>
 
 <p id="description">The Custom Password Generator is a Java-based project that allows users to generate unique and secure passwords based on their first name last name and date of birth. The project provides a user-friendly interface that takes input from the user including their first name last name and date of birth and generates a custom password by combining these inputs. The generated password is designed to be strong and secure making it suitable for various security-sensitive applications such as online accounts email accounts or other digital platforms.</p>
 
