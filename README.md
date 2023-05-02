@@ -39,5 +39,5 @@ Distributed under the MIT License. See [LICENSE](https://github.com/gautham2k3/C
 
 Technologies used in the project:
 
-*   JAVA <img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" width="20">
+*   JAVA <img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" width="15">
 *   IntelliJ IDEA <img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/IntelliJ_IDEA_Icon.svg" width="20">
