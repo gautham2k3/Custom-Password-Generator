@@ -180,6 +180,10 @@ public class Generator
         if(isInclude(z)) {
             a = true;
         }
+        System.out.println("Select Generated Password Type :");
+        System.out.println("1.Easy \n2.Hard");
+        System.out.println("Enter a Choice");
+        int choice=sc.nextInt();
         int l=8;
         final Generator G=new Generator(x,y,a,aa);
         final Password Pass=G.GenerateCP(l);
