@@ -4,8 +4,6 @@
 
 <p id="description">The Custom Password Generator is a Java-based project that allows users to generate unique and secure passwords based on their first name last name and date of birth. The project provides a user-friendly interface that takes input from the user including their first name last name and date of birth and generates a custom password by combining these inputs. The generated password is designed to be strong and secure making it suitable for various security-sensitive applications such as online accounts email accounts or other digital platforms.</p>
 
-<p align="center"><img src="https://img.shields.io/github/watchers/gautham2k3/Custom-Password-Generator?style=social" alt="shields"></p>
-
 <h2>Project Screenshots:</h2>
 
 <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81q-wzh1u7lqKHosy8x6H_6-784MI_g8aEzxEkPXAx2zlMRYLtrY7f-ipghj75hcEgmSSxTyNlLxKCJOYIQfUmvUfVRwXw=w1920-h1080" width="500"/> <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81rG5bXC-mQdtGm1NCsryIKlu25mj_jc4wRjhx5yldXKMgkw1sc0bmHOEUls-D0KBy-4C1O-I9kYB8njxkWP2OnOrAEz=w1920-h1080" width="500"/>
