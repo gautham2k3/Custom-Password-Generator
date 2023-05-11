@@ -180,18 +180,37 @@ public class Generator
         if(isInclude(z)) {
             a = true;
         }
-        System.out.println("Select Generated Password Type :");
-        System.out.println("1.Easy \n2.Hard");
-        System.out.println("Enter a Choice");
-        int choice=sc.nextInt();
+        String FName="";
+        String LName="";
         int l=8;
+        if(isInclude(s)) {
+            System.out.println("Select Generated Password Type :");
+            System.out.println("1.Easy \n2.Hard");
+            System.out.println("Enter a Choice");
+            int choice = sc.nextInt();
+            while (choice != 1 && choice != 2) {
+                System.out.println("Invalid Choice : Re_Enter");
+                choice = sc.nextInt();
+            }
+            if (choice == 1) {
+                FName = x;
+                LName = y;
+                x = "*";
+                y = "+";
+                l=4;
+            }
+        }
         final Generator G=new Generator(x,y,a,aa);
         final Password Pass=G.GenerateCP(l);
         String ax=Pass.toString();
         if(isInclude(s)) {
             System.out.print("Your Generated Password is : ");
             for (int i = 0; i < ax.length(); i++) {
-                if (ax.charAt(i) == '&')
+                if(ax.charAt(i)=='*')
+                    System.out.print(FName);
+                else if(ax.charAt(i)=='+')
+                    System.out.print(LName);
+                else if (ax.charAt(i) == '&')
                     System.out.print(p);
                 else if (ax.charAt(i) == '^')
                     System.out.print(q);
