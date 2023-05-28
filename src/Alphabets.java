@@ -2,7 +2,7 @@ public class Alphabets {
     public static final String UCAlphabets="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     public static final String LCAlphabets="abcdefghijklmonpqrstuvwxyz";
     public static final String Numbers="0123456789";
-    public static final String Symbols="!@#$%^&*()_-+={[}]|\\:<>.?/";
+    public static final String Symbols="!@#$%^&*()_<>.?/";
     private final StringBuilder ReqAlphabets;
 
     public Alphabets(boolean UC,boolean LC,boolean Num,boolean Symb)

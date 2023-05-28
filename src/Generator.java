@@ -91,7 +91,7 @@ public class Generator
             String input;
             cp=false;
             do{
-                System.out.println("DO you need lowercase :");
+                System.out.println("DO you need Uppercase :");
                 input=sc.next();
             }
             while(!input.equalsIgnoreCase("yes")&& !input.equalsIgnoreCase("no"));
